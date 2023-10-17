@@ -23,12 +23,12 @@ To run this project, you need to have the following installed on your system:
 You also need to have an Obsidian vault that contains notes on holidays, such as their names, descriptions, and tags. The notes should follow a consistent format and structure, such as:
 
 
-title: 2023 10 - Neo4j conference
---- frontmatter
-tags: [holiday, autumn]
-attendees: [[[Kevin]]]
-locations: [[[Earth]]]
---- description
+title: 2023 10 - Neo4j conference<br>
+--- frontmatter<br>
+tags: [holiday, autumn]<br>
+attendees: [[[Kevin]]]<br>
+locations: [[[Earth]]]<br>
+--- description<br>
 Held a talk on the neo4j conference.
 
 Usage
@@ -45,7 +45,7 @@ To run this project, follow these steps:
 •  Run the generate_neo4j_graph_from_md.py file. This will execute the ETL process and print some messages to indicate the progress and status of the operation. You should see the nodes and relationships that represent your holiday data in the graph view of the Neo4j database. You can also use Cypher queries to explore and analyze your data further.
 
 License
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/grunerkevin/NODES-2023-Obsi2Neo4j/blob/main/LICENSE) file for details.
 
 Acknowledgments
 This project was inspired by the following sources:
