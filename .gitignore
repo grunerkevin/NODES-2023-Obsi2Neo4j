@@ -1,0 +1,8 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Python
+properties.properties
+**/__pycache__/
+venv
+.obsidian
+.idea

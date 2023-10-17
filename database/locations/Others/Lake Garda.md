@@ -1,0 +1,5 @@
+---
+tags:
+  - location
+locatedIn: "[[Italy 🇮🇹]]"
+---
